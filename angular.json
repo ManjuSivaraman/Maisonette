@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "maisonette": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "maisonette"
+    }
+  },
+  "defaultProject": "maisonette",
+  "cli": {
+    "analytics": "fc9dbd70-6af8-4dcb-b8ae-71e82649b149"
+  }
 }
