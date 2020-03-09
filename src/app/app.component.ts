@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'maisonette';
+
+  topnavbarlist = ["MAISON ME" , "BABY" , "KIDS" , "PLAY"];
+
 }

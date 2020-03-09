@@ -1,4 +1,7 @@
 <app-header></app-header>
-<app-top-navbar></app-top-navbar>
+<app-top-navbar 
+*ngFor = "let topnav of topnavbarlist"
+[topnavbarvalue] = "topnav" 
+></app-top-navbar>
 <app-side-navbar></app-side-navbar>
 <app-footer></app-footer>

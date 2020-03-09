@@ -1,0 +1,16 @@
+@import '../../../../styles.scss';
+
+.top-header-style{
+    color: $textcolor-white;
+    font-size: $fontsize-13;
+    background-color: $bgcolor-blue;
+    letter-spacing : $letter-spacing-10;
+    font-family: $font-family-Walsheim;
+}
+
+.maisonette-style{
+    background-color: $bgcolor-fadepink;
+    font-size: $fontsize-14;
+    letter-spacing: $letter-spacing-30;
+    color: $textcolor-blue;
+}
