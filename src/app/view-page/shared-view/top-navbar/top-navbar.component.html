@@ -1,3 +1,20 @@
-<span>
-    {{topnavbarvalue}}
-</span>
+<div class="container d-flex justify-content-between py-3 font-style"> 
+    <div *ngFor = "let topnav of topnavbarvalue">
+        <div class="dropdown">
+            <div class="dropbtn">{{topnav}}</div>
+            <div class="dropdown-content">
+                <div *ngIf="topnav == 'BABY'">
+                    <div *ngFor = "let navbarDrop of this.navbarDropdownData[0].baby">
+                        <a class="p-2" href="#">{{navbarDrop}}</a>
+                    </div>
+                </div>
+                <div *ngIf="topnav == 'KIDS'">
+                    <div *ngFor = "let navbarDrop of this.navbarDropdownData[1].kids">
+                        <a class="p-2" href="#">{{navbarDrop}}</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+

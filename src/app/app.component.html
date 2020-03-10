@@ -1,7 +1,14 @@
 <app-header></app-header>
-<app-top-navbar 
-*ngFor = "let topnav of topnavbarlist"
-[topnavbarvalue] = "topnav" 
-></app-top-navbar>
-<app-side-navbar></app-side-navbar>
-<app-footer></app-footer>
+
+<app-top-navbar [topnavbarvalue]="topnavbarlist" [navbarDropdownData]="navbarDropdown"></app-top-navbar>
+
+<div class="row no-gutters">
+    <div class="col-md-3">
+        <app-side-navbar></app-side-navbar>
+    </div>
+    <div class="col-md-9">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<div>
+<app-footer></app-footer></div>

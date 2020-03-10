@@ -1,0 +1,12 @@
+.border-style{
+    border: 2px solid #3150a2;
+}
+
+.showme {
+    visibility: hidden;
+  }
+  
+  .showhim:hover .showme {
+    visibility: visible;
+  }
+         

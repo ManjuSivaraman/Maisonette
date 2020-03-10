@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {SharedViewModule} from './view-page/shared-view/shared-view/shared-view.module';
+import { GirlsDressesModuleModule } from './view-page/kids/girls/girls-dresses-module/girls-dresses-module.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import {SharedViewModule} from './view-page/shared-view/shared-view/shared-view.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedViewModule
+    SharedViewModule,
+    GirlsDressesModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

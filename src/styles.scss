@@ -1,5 +1,6 @@
 $font-family-Walsheim: "GT Walsheim Pro Regular";
 $font-family-Pressura: "GT Pressura";
+$font-family-Plantin :  "Plantin Web";
 
 $bgcolor-fadepink : #fcf8e8;
 $bgcolor-blue:#3150a2;
@@ -7,12 +8,31 @@ $bgcolor-blue:#3150a2;
 $textcolor-blue:#3150a2;
 $textcolor-white: white;
 
+$fontsize-12: 12px;
 $fontsize-13: 13px;
 $fontsize-14: 14px;
 
 $letter-spacing-10 : 0.10em;
 $letter-spacing-30 : 0.30em;
 
+$font-weight-600: 600;
+
 body{
     color: $textcolor-blue;
 }
+
+.font-family-Plantin{
+    font-family : $font-family-Plantin;
+}
+
+.font-style{
+    font-size: $fontsize-12;
+    letter-spacing: $letter-spacing-30;
+}
+
+.font-style-14{
+   font-weight: $fontsize-14;
+}
+
+
+

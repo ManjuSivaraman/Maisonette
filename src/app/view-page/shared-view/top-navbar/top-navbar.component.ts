@@ -8,10 +8,13 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TopNavbarComponent implements OnInit {
 
   @Input() topnavbarvalue : any;
+  @Input() navbarDropdownData : any;
 
   constructor() { }
 
   ngOnInit(): void {
+
+    console.log(this.navbarDropdownData[0].baby, "navbarDropdownData")
    
   }
 
